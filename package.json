@@ -4,12 +4,13 @@
   "description": "",
   "main": "handler.js",
   "scripts": {
-    "deploy" : "sls deploy"
+    "deploy": "sls deploy"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "serverless": "^2.72.0",
     "serverless-offline": "^8.3.1"
   }
 }
