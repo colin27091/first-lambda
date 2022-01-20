@@ -11,8 +11,8 @@ jobs:
         node-version: [12.x]
     steps:
       - uses: actions/chekout@v2
-  with:
-    ref: main	
+        with:
+          ref: main	
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
