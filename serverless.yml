@@ -7,7 +7,7 @@ provider:
   runtime: nodejs12.x
   lambdaHashingVersion: 20201221
 
-  stage: dev
+  stage: prod
   region: eu-west-3
 
 plugins:
